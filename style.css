@@ -1,8 +1,7 @@
 .wrapper{
-    height: 100vh;
-    width: 100vw;
-    background: url('./transparent-background-png-free-12.png');
-    background-size: cover;
+   
+    background: url('./Background.jpg');
+    object-fit:cover;
 
 }
 .blocktext {
@@ -10,3 +9,30 @@
     margin-right: auto;
     
 }
+.Box{
+    text-align: center;
+    
+}
+.Points{
+    list-style-type: none;
+}
+@keyframes cc{
+    0% {color: black;}
+    100% {color:white;}}
+  .Change {animation: cc 5s infinite;}
+  .Move {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
